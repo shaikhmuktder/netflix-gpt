@@ -1,11 +1,10 @@
-import RandomColor from "./comporent/RandomColor";
-import StarRating from "./comporent/StarRating";
+import Body from "./components/Body";
+
 
 export default function App() {
   return (
     <div className="flex items-center">
-      {/* <StarRating/> */}
-     {/* <RandomColor/> */}
+     <Body/>
     </div>
   )
 }
